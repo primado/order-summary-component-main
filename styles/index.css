@@ -12,18 +12,25 @@
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    font-size: medium;
 }
 
+    /* background-color: rgba(186, 216, 228, 0.816); */
 body {
-    /* background-image: url("images/pattern-background-desktop.svg"); */
-    background-color: rgba(186, 216, 228, 0.816);
+    position: absolute;
+}
+body .background-layer svg{
+    width: 100%;
+    margin-bottom: -20em;
+
+
 }
 
 main {
-    margin: auto;
+    margin: 0;
     display: flex;
     justify-content: center;
-    margin: 7.3em;
+    margin: 0;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -33,19 +40,22 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5em;
     
 }
 
 img {
     width: 55%;
     object-fit: cover;
-  
+    border-radius: 18px 19px 0 0;
 }
 
 .card-body  {
     width: 55%;
     background-color: hsl(225, 100%, 98%);
     padding: 1em 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 0 19px 19px;
 }
 
 h1 {
@@ -104,6 +114,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: .3em 0;
 }
 
 .call-action a {
@@ -131,3 +142,8 @@ h1 {
     font-size: 1em;
 }
 
+.attribution {
+    display: block;
+    margin-top: -5em;
+
+}
