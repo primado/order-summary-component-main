@@ -7,12 +7,13 @@
     width: 100%;
 }
 .attribution {
-    font-size: 11px; 
+    font-size: 15px; 
     text-align: center;
+    padding: .5em;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-    font-size: medium;
+    font-size: 20px;
 }
 
     /* background-color: rgba(186, 216, 228, 0.816); */
@@ -145,5 +146,55 @@ h1 {
 .attribution {
     display: block;
     margin-top: -5em;
+
+}
+
+@media only screen and (max-width: 300px) {
+    h1 {
+        font-size: 1.25em;
+        text-align: center;
+
+    }
+    .card-body > p {
+        text-align: center;
+        /* padding: .09em; */
+        padding: .1em;
+
+    }
+
+    .illustration-img img {
+        width: 33.6%;
+    }
+
+    .illustration-img h4 {
+        font-size: .79em;
+        font-weight: 300;
+        padding: .5em .3em;
+    }
+
+    .illustration-img h4 > small {
+        display: block;
+    }
+
+    .illustration-img .change {
+        padding-right: .1em;
+    }
+
+    .illustration-img .change a {
+        font-size: .79em;
+    }
+
+    .call-action a {
+        font-size: .59em;
+        font-weight: 450;
+        padding: .80em 1em;
+        text-align: center;
+    }
+
+    .attribution {
+        font-size: 15px;
+        padding: 1em;
+    }
+
 
 }
