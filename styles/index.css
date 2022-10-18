@@ -281,4 +281,10 @@ h1 {
     img {
         width: 375px;
     }
+
+    .call-action a {
+        padding: .6em 4.3em;
+        font-size: 1em;
+        text-align: center;
+    }
 }
